@@ -4,17 +4,198 @@ body {
   font-size: 16px;
 }
 
-h1 {
-  font-size: 48px;
-  color: white;
-  height: 200px;
-  justify-content: center;
-}
-
 .main-block {
   width: 1024px;
   background-color: white;
-  height: 500px;
   border-radius: 20px;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+  /* padding: 100px; */
+}
+
+nav {
+  height: 100px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #190f33;
+}
+
+a:hover {
+  color: #5c48d2;
+  cursor: pointer;
+}
+
+.img-1 {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+
+.pres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.pres-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-me {
+  background-color: white;
+  padding: 100px;
+}
+
+#education {
+  background-color: #eeeef7;
+  padding: 100px;
+}
+
+#projects {
+  background-color: white;
+  padding: 100px;
+}
+
+#contact {
+  background-color: #eeeef7;
+  padding: 100px;
+}
+
+.img-profil {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: #fcc01a solid 2px;
+  margin-right: 80px;
+  object-fit: cover;
+}
+
+p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.p-project-text {
+  margin-bottom: 120px;
+}
+
+.nom-prenom {
+  font-size: 38px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 50px;
+}
+
+.ville {
+  font-size: 30px;
+  font-style: italic;
+  color: #190f33;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-logo {
+  padding-bottom: 50px;
+}
+
+.logo img {
+  height: 100px;
+  padding: 50px;
+  padding-bottom: 0;
+}
+
+.img-projet {
+  width: 500px;
+  margin-right: 60px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  height: 30px;
+  list-style-type: disc;
+}
+
+.img-contact {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.gitbub {
+  text-decoration: none;
+}
+
+.gitbub:hover {
+  color: #5c48d2;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #c4c4c4;
+  height: 40px;
+}
+
+.reacteur {
+  color: #fcc01a;
+  height: 40px;
+}
+
+.reacteur:hover {
+  color: #190f33;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 180px;
 }
